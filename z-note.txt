@@ -1,0 +1,2 @@
+1. focus on understanding the inner HTML part
+2. make the text smaller so things fit 

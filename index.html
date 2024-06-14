@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+  />  
+  <link rel="stylesheet" href="styles.css" />
+  <script defer type="module" src="./main.js"></script>
+
+</head>
+<body>
+  <article class="dashboard">
+    <!-- main part of the profile card -->
+    <section class="main-card-wrapper">
+      <div class="main-card">
+        <div class="main-card__content-wrapper">
+          <img src="./images/image-jeremy.png" alt=" Jeremy's profile picture" class="main-card__prof-pic">
+          <div class="main-card__text-wrapper">
+            <p class="main-card__report-text">Report for</p>
+            <h1 class="main-card__profile-name">Jeremy Robson</h1>
+          </div>
+        </div>
+      </div>
+          <!-- wrapper for bottom half of main card -->
+
+      <div class="main-card__day-week-month-wrapper">
+        <button class="main-card__button main-card__day-button" data-timeframe="daily"> Daily</button>
+        <button class="main-card__button main-card__week-button" data-timeframe="weekly"> Weekly</button>
+        <button class="main-card__button main-card__month-button" data-timeframe="monthly"> Monthly</button>
+      </div>
+    </section>
+<!-- category cards container -->
+<div id = "cards-container" class="cards-container">
+      
+</div>
+
+
+</article>
+
+</body>
+</html>
