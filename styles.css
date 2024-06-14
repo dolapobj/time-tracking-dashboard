@@ -29,7 +29,7 @@ body {
   font-family: "Rubik", sans-serif;
   background-color: var(--very-dark-blue);
   color: white;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,7 +209,6 @@ body {
     grid-template-columns: 2fr 7fr;
     grid-template-areas: "main cards";
     gap: 1.5rem;
-    align-items: stretch;
   }
   .main-card-wrapper {
     grid-area: main;
@@ -249,10 +248,11 @@ body {
   .card {
     border-radius: 0.75rem;
     margin-bottom: 0;
+    height: 100%;
   }
   .card__background {
     top: -25px;
-    border-radius: 0.5rem;
+    border-radius: 1rem;
   }
   .card__text {
     margin-top: 0.5rem;
